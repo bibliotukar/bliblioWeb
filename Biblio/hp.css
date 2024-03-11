@@ -1,0 +1,38 @@
+body{
+    background-color: FFFFF4;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+
+}
+.lastseen {
+    text-align: left; /* Align all items to the center */
+}
+
+.book-container {
+    display: inline-block; /* Display containers in a row */
+    margin-left : 20px; /* Add some space between containers */
+}
+
+.book-image {
+    width: 150px; /* Set the width of the book images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.ad{
+    background-color: #E6DBCD;
+    width: 90%;
+    height: 25%;
+    border-radius: 10px;
+
+}
+.navigation{
+        width: 103px;
+        height: 892px;
+        background: rgb(168, 126, 71);
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        overflow: hidden;
+}
