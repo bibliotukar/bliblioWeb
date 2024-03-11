@@ -1,0 +1,273 @@
+.box {
+    width: 1698px;
+    height: 1037px;
+  }
+  
+  .box .group {
+    position: fixed;
+    width: 1698px;
+    height: 1037px;
+    top: 0;
+    left: 0;
+  }
+  
+  .box .overlap {
+    position: relative;
+    width: 1700px;
+    height: 1037px;
+  }
+  
+  .box .register-page {
+    position: absolute;
+    width: 1523px;
+    height: 1037px;
+    top: 0;
+    left: 177px;
+  }
+  
+  .box .overlap-group {
+    position: absolute;
+    width: 1521px;
+    height: 945px;
+    top: 92px;
+    left: 0;
+  }
+  
+  .box .rectangle {
+    position: absolute;
+    width: 564px;
+    height: 945px;
+    top: 0;
+    left: 957px;
+    background-color: #e6dbcd;
+  }
+  
+  .box .div {
+    position: absolute;
+    width: 957px;
+    height: 945px;
+    top: 0;
+    left: 0;
+    background-color: #f5cd94;
+  }
+  
+  .box .rectangle-2 {
+    position: absolute;
+    width: 1521px;
+    height: 945px;
+    top: 0;
+    left: 0;
+    border: 5px solid;
+    border-color: #f8070f;
+  }
+  
+  .box .group-2 {
+    position: absolute;
+    width: 467px;
+    height: 546px;
+    top: 199px;
+    left: 1005px;
+  }
+  
+  .box .overlap-group-2 {
+    position: absolute;
+    width: 463px;
+    height: 480px;
+    top: 0;
+    left: 0;
+    background-color: #fffbfbc2;
+    border-radius: 14px;
+  }
+  
+  .box .overlap-2 {
+    position: absolute;
+    width: 428px;
+    height: 324px;
+    top: 102px;
+    left: 17px;
+  }
+  
+  .box .group-3 {
+    position: absolute;
+    width: 428px;
+    height: 324px;
+    top: 0;
+    left: 0;
+  }
+
+  .submit-button {
+    background-color: orange;
+    color: white;
+    padding: 20px 40px; 
+    text-align: center;
+    width: 100%;
+    font-size: 20px; 
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute; 
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%); =
+}
+
+  
+  .box .rectangle-3 {
+    position: absolute;
+    width: 428px;
+    height: 67px;
+    top: 171px;
+    left: 0;
+    border: 3px solid;
+    border-color: #d9d9d9;
+  }
+  
+  .box .rectangle-4 {
+    position: absolute;
+    width: 428px;
+    height: 67px;
+    top: 0;
+    left: 0;
+    border: 3px solid;
+    border-color: #d9d9d9;
+  }
+  
+  .box .rectangle-5 {
+    position: absolute;
+    width: 428px;
+    height: 67px;
+    top: 86px;
+    left: 0;
+    border: 3px solid;
+    border-color: #d9d9d9;
+  }
+  
+  .box .img {
+    position: absolute;
+    width: 428px;
+    height: 67px;
+    top: 257px;
+    left: 0;
+  }
+  
+  .box .text-wrapper {
+    position: absolute;
+    width: 114px;
+    top: 275px;
+    left: 157px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #fdf0ec;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-2 {
+    position: absolute;
+    width: 343px;
+    top: 43px;
+    left: 58px;
+    font-family: "Poppins-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #917f74;
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .rectangle-6 {
+    position: absolute;
+    width: 82px;
+    height: 29px;
+    top: 517px;
+    left: 201px;
+  }
+  
+  .box .login-page {
+    position: absolute;
+    width: 962px;
+    top: 0;
+    left: 129px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .box .overlap-wrapper {
+    position: absolute;
+    width: 308px;
+    height: 56px;
+    top: 119px;
+    left: 1153px;
+  }
+  
+  .box .overlap-3 {
+    position: relative;
+    width: 304px;
+    height: 56px;
+  }
+  
+  .box .home {
+    position: absolute;
+    width: 304px;
+    top: 18px;
+    left: 0;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: #917f74;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .box .text-wrapper-3 {
+    position: absolute;
+    width: 304px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #917f74;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+
+
+  
+  .box .ellipse {
+    position: absolute;
+    width: 1px;
+    height: 125px;
+    top: 737px;
+    left: 1309px;
+    background-color: #d9d9d9;
+    border-radius: 0.44px/62.5px;
+  }
+  
+  .box .image {
+    left: 520px;
+    position: absolute;
+    width: 614px;
+    height: 943px;
+    top: 92px;
+    object-fit: cover;
+  }
+  
+  .box .image-2 {
+    left: 0;
+    position: absolute;
+    width: 614px;
+    height: 943px;
+    top: 92px;
+    object-fit: cover;
+  }
+  
