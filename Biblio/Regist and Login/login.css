@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #e6dbcd;
+    
+}
+
+
+.Register {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 69%;
+    top: 20%;
+    padding: 30px 40px;
+    width: 325px;
+    border-radius: 100px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 10px rgba(255, 255, 255, .3);
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.Register h1 {
+    text-align: center;
+    color: #917f74;
+    margin-bottom: 5px;
+    border-bottom: 4px solid white;
+}
+
+.Register label {
+    text-align: left;
+    color: black;
+    
+}
+
+.Register form input {
+    width: 100%; 
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 3px;
+    border: none;
+    border: 2px solid black;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: 20px;
+}
+
+.Register form button   {
+    
+    width: 103%;
+    padding: 10px 0;
+    border: none;
+    background-color: #ff7b29;
+    font-size: 18px;
+    color: #fafafa;
+    cursor: pointer;
+    
+}
+
+
+
+.homeandsignup {
+    position: absolute;
+    width: 308px;
+    height: 56px;
+    top: 119px;
+    left: 1153px;
+}
+
+.overlap-3 {
+    position: relative;
+    width: 304px;
+    height: 56px;
+}
+
+.home a {
+    position: absolute;
+    width: 304px;
+    top: -50px;
+    left: -130px;
+    font-family: "Poppins-Bold", Helvetica;
+    text-decoration: none;
+    font-weight: 700;
+    color: #917f74;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.signup{
+    position: absolute;
+    width: 304px;
+    top: -70px;
+    left: -135px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #917f74;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+}
