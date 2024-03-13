@@ -1,81 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Home Page After register</title>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="hp.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Text</title>
+    <link rel="stylesheet" href="hp.css">
 </head>
 <body>
-<div class="toprow">
-    <p style="display: inline-block; font-weight: bold; color: #917F74;">Biblio</p> 
-    <p style="display: inline-block; color: #917F74;">book</p> 
-    <button style="float: right; background-color: #F18966; font-weight: bold; color: white; border-radius: 15px; border: none; height: 20px; height: 30px; cursor: pointer;">Subscription </button>
-</div>
+    <div class="navbar">
+        <div class="navigation">
+        </div>
+    </div>
+
+<div class=" content">
+    <div class="page">
+        <style>
+            p{
+                display: inline;
+            }
+            .subs-button{
+                background-color: orangered;
+                color: white;
+                width: 100px;
+                height: 30px;
+                margin-left: 500px;
+                border: none;
+                border-radius: 20px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        </style>
+        <p>Biblio</p>
+        <p>Book</p>
+        <Button class="subs-button">Subscription</Button>
+    </div>
+
 <br>
-<div class="navigation"> 
+<br>
+
+<div>
+<p>Last Seen</p>
+<div class="book-container"> <!--ini section buat buku yang berderet ya bocah freakk-->
+<div class="item">
+    <img src="black.png" alt="image 1">
+    <br>
+    <p>Description 1</p>
 </div>
-<div class="lastseen">
-    <p style="color: #917F74; font-size: large; font-weight: bold; ">Last Seen</p>
-    <div class="book-container">
-        <div class="book-image"></div>
-        <img src="harry potter.png" alt="jk book" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">JK. Rowling</p>
-    </div>
-    <div class="book-container">
-        <img src="fd.jpg" alt="Fd image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Fyodor Dostoevsky</p>
-    </div>
-    <div class="book-container">
-        <img src="karlmarx.png" alt="km image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Karl Marx</p>
-    </div>
-    <div class="book-container">
-        <img src="pj.png" alt="pj image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Rick Riordan</p>
-    </div>
-    <div class="book-container">
-        <img src="sk.jpg" alt="SK image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Stephen King</p>
-    </div>
-    <div class="book-container">
-        <img src="karlmarx.png" alt="km image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Karl Marx</p>
-    </div>
-    
-<div class="ad">
-<p style="color: #917F74; font-size: large; text-align: right; padding: 10px;">2024 YEAR MOST POPULAR Best Seller</p>
-<p style="color: #917F74; font-size: large; text-align: right; padding: 10px;">Explore the most popular for 2024 by just Click on this page</p>
-<button style=" cursor: pointer; border: none; color: white; background-color: #F18966; border-radius: 20px; height: 30px; width: 90px; font-weight: bold; float: right; padding-left: 10px; margin: 20px;">View Out</button>
+<div class="item">
+    <img src="black.png" alt="image 2">
+    <br>
+    <p>Description 2</p>
+</div>
+<div class="item">
+    <img src="black.png" alt="image 3">
+    <br>
+    <p>Description 3</p>
+</div>
+<div class="item">
+    <img src="black.png" alt="image 4">
+    <br>
+    <p>Description 4</p>
+</div>
+<div class="item">
+    <img src="black.png" alt="image 5">
+    <br>
+    <p>Description 5</p>
+</div>
+</div>
 </div>
 
-<div class="popular">
-    <p style="color: #917F74; font-size: large; font-weight: bold; ">popular</p>
-    <div class="book-container">
-        <div class="book-image"></div>
-        <img src="harry potter.png" alt="jk book" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">JK. Rowling</p>
-    </div>
-    <div class="book-container">
-        <img src="fd.jpg" alt="Fd image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Fyodor Dostoevsky</p>
-    </div>
-    <div class="book-container">
-        <img src="karlmarx.png" alt="km image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Karl Marx</p>
-    </div>
-    <div class="book-container">
-        <img src="pj.png" alt="pj image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Rick Riordan</p>
-    </div>
-    <div class="book-container">
-        <img src="sk.jpg" alt="SK image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Stephen King</p>
-    </div>
-    <div class="book-container">
-        <img src="karlmarx.png" alt="km image" class="book-image">
-        <p style="color: #917F74; font-weight: bolder;">Karl Marx</p>
-    </div>
 <br>
 <br>
-<button style="cursor: pointer; background-color: #F18966; color: white; border-radius: 20px; align-items; border: none; height: 20px; width: 90px; justify-content: center;" >View All</button>
+
+<div class="ad-banner"> <!--Ini bagian yang banner coklat di tengah ya kids-->
+    <style>
+        .ad-banner {
+            background-color: #E6DBCD;
+            color: black;
+            height: 400px;
+            width: 700px;
+            border: none;
+            border-radius: 10px;
+        }
+        .view-button {
+            background-color: orangered;
+                color: white;
+                width: 120px;
+                height: 30px;
+                border: none;
+                border-radius: 20px;
+                font-weight: bold;
+                cursor: pointer;
+        }
+        .ad-p{
+            margin-left: 300px;
+            padding-top: 100px;
+        }
+    </style>
+    <div class="ad-p">
+        <p style="font-size: larger; font-weight: bold;">2024 Year 50 Most Popular Bestseller</p><br>
+        <p>Explore the book around the world, and become the smartest
+            person in the world</p><br>
+        <button class="view-button">
+           View Out 
+        </button>
+    </div>
 </div>
+
+<br>
+<br>
+
+<div>
+    <p>Popular</p>
+    <div class="book-container"> <!--ini section buat buku yang berderet ya bocah freakk-->
+    <div class="item">
+        <img src="black.png" alt="image 1">
+        <br>
+        <p>Description 1</p>
+    </div>
+    <div class="item">
+        <img src="black.png" alt="image 2">
+        <br>
+        <p>Description 2</p>
+    </div>
+    <div class="item">
+        <img src="black.png" alt="image 3">
+        <br>
+        <p>Description 3</p>
+    </div>
+    <div class="item">
+        <img src="black.png" alt="image 4">
+        <br>
+        <p>Description 4</p>
+    </div>
+    <div class="item">
+        <img src="black.png" alt="image 5">
+        <br>
+        <p>Description 5</p>
+    </div>
+    </div>
+    </div>
+
+<br>
+<br>
+
+<button class="view-button" style="margin-left: 250px;">View All</button>
 </div>
 </body>
