@@ -1,0 +1,34 @@
+*{
+  width: ;      
+}
+
+.navbar{
+    background-color: burlywood;
+    width: 100px;
+    height: 100%;
+    border-radius: 10px;
+    position:absolute;
+}
+
+.content{
+    position: relative;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+.book-container {
+    text-align: left; 
+}
+
+.item {
+    display: inline-block; 
+    margin: 10px; 
+}
+
+.item img {
+    width: 100px; 
+    height: auto; 
+}
+
+.item p {
+    margin: 5px 0 0; 
+}
