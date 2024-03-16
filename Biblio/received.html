@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Received</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .order-details {
+            margin-bottom: 20px;
+        }
+        .order-details h3 {
+            margin-top: 0;
+        }
+        .item-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .item-list li {
+            margin-bottom: 5px;
+        }
+        .total-price {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Order Received</h1>
+
+    <div class="head-button">
+        <style>
+            .head-button{
+                font-size: large;
+                font-weight: bold;
+                border-radius: 20px;
+                width: auto;
+                height: 30px;
+                border: none;
+                cursor: pointer;
+                display: flex;
+            }
+        </style>
+        <button class="head-button" style="margin-left: 320px; background-color: #F18966;
+        color: white;">Sign Up</button>
+        <button class="head-button" style="margin-left: 5px; background-color: #F18966;
+        color: white;">Login</button>
+    </div>
+
+    <div class="oc-button">
+        <style>
+            .oc-button{
+                display: flex;
+                width: 300px;
+                height: 50px;
+                color: white;
+                font-size: large;
+                font-weight: bold;
+            }
+        </style>
+        <button class="oc-button" style="background-color: #D6C9BA; border: none;">Checkout</button>   <!--Nah disini gua bingung nih pake button atau pake p doang-->
+        <button class="oc-button" style="background-color: #F18966; border: none;">Receive</button>
+    </div>
+
+    <div class="brown-container">
+        <style>
+            .brown-container{
+                background-color: #D6C9BA;
+                width: 500px;
+                height: auto;
+            }
+            .white-container{
+                background-color: #FFFFF4;
+                color: #917F74;
+                border: solid;
+                border-color: #F18966;
+                width: 480px;
+                height: 350px;
+            }
+        </style>
+        <p>Content</p>
+        <div class="white-container">
+            <p class="od">Order-01 (25-02-2024)</p>
+
+            <br>
+
+            
+        <ul class="order-item">
+            <li>1x HARRY POTTER: THE PHILOSOPER STONE
+            <p style="display: inline;">Jk.Rowling</p> <p style="display: inline; float:right;">Rp.2000</p>
+        </li>
+
+        <br>
+        <br>
+
+        <li> 1x Tutorial Berburu - 3rd Edition
+            <p style="display: inline;">Sumanto Official</p> <p style="display: inline; float:right;">Rp.2000</p>
+        </li>
+
+        <br>
+        <br>
+
+        <li> 2x Sang Pengendali Uap
+            <p style="display: inline;">Gajar Suka</p> <p style="display: inline; float:right;">Rp.4000</p>
+        </li>
+        </ul>
+        <br>
+        <p style="display: inline;">Confirm receipt after you have checked the received items!</p>
+        <button style="float: right; background-color: #F18966; width: 100px; height: 40px; display: inline; border-radius: 15px; color: white; font-weight: bold; cursor: pointer; border: none;">Order Received</button>
+        </div>
+    </div>

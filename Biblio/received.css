@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.order-details {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-details h3 {
+    margin-top: 0;
+    color: #4a4a4a;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item-list li {
+    margin-bottom: 5px;
+    color: #4a4a4a;
+}
+
+.total-price {
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+.navigation a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navigation a:hover {
+    background-color: #45a049;
+}
