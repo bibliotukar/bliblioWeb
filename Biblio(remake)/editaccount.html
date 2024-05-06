@@ -1,0 +1,193 @@
+<head>
+    <title>About--about builder</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <style>
+        body {
+    background-color: #FDFDFD;
+    height: 1615;
+    width: auto;
+}
+
+nav {
+    background-color: #EFF2F9;
+    color: #062D52;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    border-style: dotted ;
+}
+nav ul {
+    list-style-type: none;
+    padding: 30px; 
+}
+nav ul li a {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    color: #062D52; 
+    line-height: 20px;
+}
+.title {
+    position: relative;
+    font-size: 5vw;
+    color: #062D52;
+    text-align: right;
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.myorder{
+    border: dotted;
+    border-width: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myorder button {
+    border: none;
+    height: 30px;
+    background-color: #FDFDFD;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px 20px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #062D52;
+    cursor: pointer;
+    padding-top: 0;
+}
+.content {
+    color: #062D52;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    width: 1000px;
+    justify-content: center;
+    margin-left: 25%;
+}
+.footer {
+    background-color: #062D52;
+    color: #EFF2F9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    height: 150px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.content1{
+    color: #062D52;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    width: 90%;
+    margin-left: 200px;
+}
+.content1 input[type=text] {
+    display: inline-block;
+    width: 40%;
+    }
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.content2 {
+    color: #062D52;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 200px;   
+    margin-right: 200px;
+}
+.sc {
+    text-decoration: none;
+    color: #062D52;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+    </style>
+    <nav>
+        <ul>
+            <li><a href="">Library</a></li>
+            <li><a href="">Forum</a></li>
+            <li><a href="">Cart</a></li>
+            <li><a href="">Purchase</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Account</a></li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <p>Bibliobook</p>
+    </div>
+
+    <div class="myorder">
+<button>About Biblio</button>
+<button>About Biblio</button>
+<button>The Builder</button>
+    </div>
+
+    <div class="content1">
+        <p>Biodata</p>
+        <form action="" class="satu-satu">
+            <label for="fname">First Name <span style="color: red;">*</span></label>
+            <input type="text" name="fname" id="fname" placeholder="Contoh">
+            <label for="lname">Last Name <span style="color: red;">*</span></label>
+            <input type="text" name="lname" id="lname" placeholder="Cogan">
+        </form> <br>
+        
+       
+        <form action="" class="satu-dua">
+            <label for="dname">Display Name <span style="color: red;">*</span></label> <br>
+            <input type="text" name="dname" id="dname" placeholder="Uzumaki Jika Kamu Sendirian">
+            <p style="color: #062D52; font-style: italic;">This name will be displayed in the account section and reviews</p>
+        </form> <br>
+
+        
+        <form action="" class="satu-tiga">
+            <label for="eadress">Email Address <span style="color: red;">*</span></label> <br>
+            <input type="text" name="eadress" id="eadress" placeholder="contohuzumakicogan@wibu.co.id">
+        </form> <br>
+    </div>
+
+    <hr style="border-top: 2px dashed black; border-bottom: 0; margin-left: 200px; margin-right: 200px;"> <br> <br>
+
+    <div class="content2">
+        <p>Password</p>
+        <form action="" class="dua-satu">
+            <label for="cpass">Current Password <span style="color: red;">*</span></label> <br>
+            <input type="password" name="cpass" id="cpass" placeholder="password gampang">
+        </form> <br>
+        <form action="" class="dua-dua">
+            <label for="npass">New Password <span style="color: red;">*</span></label> <br>
+            <input type="text" name="npass" id="npass" placeholder="ui$5opj%^d1r@*61c!^h">
+            <p style="color: #062D52; font-style: italic;">The new password must be different from the current password</p>
+        </form> <br>
+        <form action="" class="dua-tiga">
+            <label for="cfpass">Confirm Password <span style="color: red;">*</span></label> <br>
+            <input type="text" name="cfpass" id="cfpass" placeholder="ui$5opj%^d1r@*61c!^h">           
+        </form> <br>
+    </div>
+
+    <hr style="border-top: 2px dashed black; border-bottom: 0; margin-left: 200px; margin-right: 200px;"> <br> <br>
+
+    <a href="#" class="sc">Save Changes ></a>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="footer">
+        <p style="font-size: xx-large; margin-top: 0; margin-bottom: 0; margin-left: 200px;">Blibliobook</p>
+        <hr style="margin-left: 200px; margin-right: 200px;">
+        <p style="font-size: large; margin-top: 30px; margin-bottom: 0; margin-left: 200px;">Powered by President University Information System</p>
+    </div>
+</body>
